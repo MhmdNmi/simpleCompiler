@@ -1,0 +1,25 @@
+	li,	 a,	 3
+	li,	 b,	 2
+	seq,	 $t0,	 b,	 0
+	beqz,	 $t0,	 $L1
+	li,	 q,	 10
+	li,	 b,	 1
+	jmp,	 $L2
+$L1:
+	li,	 b,	 4
+$L2:
+	li,	 c,	 3
+$L3:
+	sgt,	 $t1,	 b,	 0
+	beqz,	 $t1,	 $L4
+	sub,	 $t2,	 c,	 1
+	mov,	 c,	 $t2
+	seq,	 $t3,	 c,	 1
+	beqz,	 $t3,	 $L5
+	li,	 c,	 1
+	jmp,	 $L6
+$L5:
+	li,	 c,	 2
+$L6:
+	jmp,	 $L3
+$L4:

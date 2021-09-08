@@ -1,0 +1,29 @@
+
+int main()<
+	int a = 3.
+	int b.
+	b = 2. 
+	if (b == 0)
+	<
+		int q = 10.
+		b = 1.
+	>
+	else
+	<
+		b = 4.
+	>
+	int c = 3.
+	while(b > 0)
+	<
+		c = c-1.
+		if(c==1)
+		<
+			c = 1.
+		>
+		else
+		<
+			c = 2.
+		>	
+	>
+	return 0.
+>

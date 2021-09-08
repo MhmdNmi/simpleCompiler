@@ -1,0 +1,19 @@
+$*  mycoment0
+    multy
+    line *$
+int main()
+<
+    int a = 9.
+    if (a < 10)
+    <
+        a = a * 10.
+    >
+    while(a < 10)
+    <
+        a = a + 1.
+    >
+>
+$$comment1
+
+$$comment2
+$$comment3
